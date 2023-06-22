@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slide- Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0f0f0f;
+      color: #fff;
+    }
+
+    header {
+      background-color: #9146ff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    nav {
+      background-color: #222;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    nav ul li {
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px;
+    }
+
+    nav ul li a:hover {
+      background-color: #333;
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      background-color: #333;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    .search-bar input[type="text"] {
+      background-color: transparent;
+      border: none;
+      color: #fff;
+      padding: 5px;
+      margin-right: 5px;
+    }
+
+    .search-bar button {
+      background-color: #9146ff;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    main {
+      padding: 20px;
+      display: flex;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: #333;
+      padding: 20px;
+      margin-left: 10px;
+    }
+
+    .channel-list {
+      margin-bottom: 20px;
+    }
+
+    .channel-list h3 {
+      color: #fff;
+      font-size: 18px;
+      margin: 0 0 10px;
+    }
+
+    .channel-list ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .channel-list li {
+      margin-bottom: 5px;
+    }
+
+    .channel-list a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+    }
+
+    .channel-list a:hover {
+      color: #9146ff;
+    }
+
+    .channel-list img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .content {
+      flex: 1;
+    }
+
+    .video-wrapper {
+      overflow-x: scroll;
+      white-space: nowrap;
+    }
+
+    .video-container {
+      display: inline-block;
+      width: 50%;
+      margin-right: 10px;
+    }
+
+    .video-container:last-child {
+      margin-right: 0;
+    }
+
+    .video-container video {
+      width: 85%;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .signup-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #9146ff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+  <script>
+    function search() {
+      var searchInput = document.getElementById("searchInput").value.toLowerCase();
+      
+      if (searchInput === "arsen" || searchInput === "arseny" || searchInput === "arsen y") {
+        window.location.href = "arsen.html";
+      } else if (searchInput === "passive") {
+        window.location.href = "passive.html";
+      } else if (searchInput === "toxic gamer23") {
+        window.location.href = "toxicgamer23.html";
+      } else if (searchInput === "goatkingglitch") {
+        window.location.href = "goatkingglitch.html";
+      } else if (searchInput === "renzil" || searchInput === "renzil gaming") {
+        window.location.href = "renzil.html";
+      } else if (searchInput === "david" || searchInput === "ihatedavid" || searchInput === "davidihate") {
+        window.location.href = "ihatedaviid.html";
+      } else if (searchInput === "slidemusic" || searchInput === "musicslide" || searchInput === "musicaslide") {
+        window.location.href = "slidemusic.html";
+      } else if (searchInput === "vex") {
+        window.location.href = "vex.html";
+      } else if (searchInput === "sarahgrace") {
+        window.location.href = "https://slipvid.8e8rr7.repl.co/sarahgrace.html";
+      } else if (searchInput === "recoil") {
+        window.location.href = "https://slipvid.8e8rr7.repl.co/recoil.html";
+      } else {
+        // Handle other search queries or display an error message
+        alert("No results found for your search query.");
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>𝙎𝙇𝙄𝘿𝙀</h1>
+  </header>
+  
+  <nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="tos.html">TOS</a></li>
+  </ul>
+</nav>
+<div style="margin-bottom: 20px; width: 100%; height: 200px; background-image: url('https://i2.wp.com/windowscustomization.com/wp-content/uploads/2018/12/Neon-Tanjim.gif?fit=750%2C354&quality=80&strip=all&ssl=1'); background-size: cover; background-position: center;"></div>
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="Search">
+  <button onclick="search()">Search</button>
+</div>
+
+  <main>
+    <div class="sidebar">
+      <div class="channel-list">
+        <h3>Recommended Channels</h3>
+        <ul>
+          <li><a href="#"><img src="https://yt3.googleusercontent.com/jbv3pjzLxO5zge0omh7ohtTx-47z_SoMq_Omvw3KlDkDo7EJQtUx4hnVIx2NS7SDL58TDaV7dw=s176-c-k-c0x00ffffff-no-rj" alt="Channel 1">@goatkingglitch</a></li>
+          <li><a href="#"><img src="https://th.bing.com/th/id/OIP._nAJC3h53x4T2_I6C5vX5AHaHg?pid=ImgDet&rs=1" alt="Channel 2">@passive</a></li>
+          <li><a href="#"><img src="https://yt3.googleusercontent.com/pBuwBmLipO5zoX41vDV5PRsG5T5oacuWow15HwtBmRmsMaxylJ6V_5VL4PhjX7eOiLG8_Y0TFA=s176-c-k-c0x00ffffff-no-rj" alt="Channel 3">@ToxicGamer23</a></li>
+          <li><a href="#"><img src="https://yt3.googleusercontent.com/mrmIoMCJS5sPYVZGh5h10b3UgJ1kAVDc7kUHc9YImah8wO6_8KAnxY6bHFqn-1hSnM4geGeJ=s176-c-k-c0x00ffffff-no-rj" alt="Channel 4">@ihatedaviid</a></li>
+        </ul>
+      </div>
+      <div class="channel-list">
+        <h3>Popular Channels</h3>
+        <ul>
+          <li><a href="#"><img src="https://yt3.googleusercontent.com/DjoF6AUFyfp5s2QZGy-TNH6DRacvjOX0C4-wQ3dEFIR46CEWazCRIjnihZltFt3XilY_bVV4hg=s176-c-k-c0x00ffffff-no-rj" alt="Channel 5">@ArsenY</a></li>
+          <li><a href="#"><img src="https://yt3.googleusercontent.com/ytc/AGIKgqN6PUkFG33I9_0gF-hmXEdVZGqhUZ1zI-vklXKWhA=s176-c-k-c0x00ffffff-no-rj" alt="Channel 6">@RenzilGaming</a></li>
+          <li><a href="#"><img src="https://yt3.googleusercontent.com/ytc/AGIKgqMmiidhmxP5myjFYkJWVid64Z8ZAKvAIkN753ZW2g=s176-c-k-c0x00ffffff-no-rj" alt="Channel 7">@vex</a></li>
+          <li><a href="#"><img src="channel8.jpg" alt="Channel 8">Channel 8</a></li>
+        </ul>
+      </div>
+    </div>
+
+<div class="content">
+  <section>
+    <h2>Recommended</h2>
+    <div class="video-wrapper">
+      <div class="video-container">
+        <video controls poster="http://i3.ytimg.com/vi/XuBke5Fz_xg/hqdefault.jpg">
+          <source src="NEW CHARACTER MIGRATION FOR GTA 5 Online IS OUT!.mp4" type="video/mp4">
+        </video>
+        <p>@Arsen Y) NEW CHARACTER MIGRATION FOR GTA 5 Online IS OUT!</p>
+      </div>
+      <div class="video-container">
+        <video controls poster="http://i3.ytimg.com/vi/niTdxDRZDYk/hqdefault.jpg">
+          <source src="Solo fully account dupe glitch save money rank with vehicles Gta5 Online Xbox console only.mp4" type="video/mp4">
+        </video>
+        <p>@GoatKingGlitch) Solo fully account dupe glitch save money rank with vehicles Gta5 Online Xbox console only</p>
+      </div>
+      <div class="video-container">
+        <video controls poster="http://i3.ytimg.com/vi/QAO2WJTHU9c/hqdefault.jpg">
+          <source src="GTA5 HOW TO GET TAN JOGGERS GLITCH (STILL WORKING).mp4" type="video/mp4">
+        </video>
+        <p> @renzilgaming GTA5 HOW TO GET TAN JOGGERS GLITCH (STILL WORKING)</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>VIDEOS RECENTLY</h2>
+    <div class="video-wrapper">
+      <div class="video-container">
+        <video controls poster="http://i3.ytimg.com/vi/6ktEtc6MFY4/hqdefault.jpg">
+          <source src="The Smoothest Ps5 Player 🐍｜ Base Montage.mp4" type="video/mp4">
+        </video>
+        <p>The Smoothest Ps5 Player 🐍｜ Base Montage</p>
+      </div>
+      <div class="video-container">
+        <video controls poster="path/to/thumbnail5.jpg">
+          <source src="Funniest African Vines and Moments.mp4" type="video/mp4">
+        </video>
+        <p>@toxicgamer23) Funniest African Vines and Moments</p>
+      </div>
+      <div class="video-container">
+        <video controls poster="http://i3.ytimg.com/vi/XfqOB4hvxlY/hqdefault.jpg">
+          <source src="Funniest African Vines and Moments.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="video-container">
+        <video controls poster="https://i3.ytimg.com/vi/uQE45InUwZw/maxresdefault.jpg">
+          <source src="Hope 🤞 (Season 3 Fortnite Montage).mp4" type="video/mp4">
+        </video>
+        <p>@vex) Hope 🤞 (Season 3 Fortnite Montage)</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+  <footer>
+    <p>&copy; 2023 SLIDE. All rights reserved.</p>
+  </footer>
+
+  <a class="signup-button" href="signup.html">Sign in</a>
+</body>
+</html>
